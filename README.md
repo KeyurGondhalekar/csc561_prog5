@@ -1,2 +1,2 @@
-# csc561_prog5
-The final project for CSC 561 Introduction to Computer Graphics - A version of the game Galaxian
+# prog4
+solution for program 4 (texturing) 2020

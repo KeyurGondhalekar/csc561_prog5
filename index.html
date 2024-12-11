@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Prog 3: Rasterization Shell</title>
+    
+    <link type="text/css" rel="stylesheet" href="rasterize.css">
+
+    <script type="text/javascript" src="gl-matrix.js"></script>
+    <script type="text/javascript" src="rasterize.js"></script>
+  </head>
+
+  <body onload="main();">
+    <div style="position:relative; display: flex;">      <canvas id="myImageCanvas" width="512" height="512"></canvas>
+      <canvas id="myWebGLCanvas" width="512" height="512"></canvas>
+      <div style="position: absolute; height: 512px; width: 512px; background-color: black;display: none; flex-direction: column;row-gap: 20px;justify-content: center; align-items: center; z-index: 10;" id="Game_Over_Window">
+        <div style="color: red;">
+          "GAME OVER"
+        </div>
+        <button onclick="window.location.reload()">
+          Reset
+        </button>
+      </div>
+      <div style="position: absolute; height: 512px; width: 512px; background-color: black;display: none; flex-direction: column;row-gap: 20px;justify-content: center; align-items: center; z-index: 10;" id="Game_Win_Window">
+        <div style="color: green;">
+          "YOU WIN!"
+        </div>
+        <button onclick="window.location.reload()">
+          Reset
+        </button>
+      </div>
+    </div>
+
+
+  </body>
+</html>
