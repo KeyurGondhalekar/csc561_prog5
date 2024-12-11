@@ -347,7 +347,7 @@ function loadTextures() {
             image.crossOrigin = "Anonymous";
             image.index = i;
             // image.src = "https://ajgavane.github.io/Computer_Graphics/" + textureName;
-            image.src = "/" + textureName;
+            image.src = "./" + textureName;
         }
     }
 }
